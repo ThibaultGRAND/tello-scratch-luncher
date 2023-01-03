@@ -1,0 +1,88 @@
+{
+    "extensionName": "Tello Control by Thibault",
+    "extensionPort": 8001,
+    "blockSpecs": [
+        [
+            "w",
+            "decollage",
+            "takeoff"
+        ],
+        [
+            "w",
+            "atterrissage",
+            "land"
+        ],
+        [
+            "w",
+            "volez vers le hauts sur une distance de %n cm",
+            "up",
+            20
+        ],
+        [
+            "w",
+            "volez vers le bas sur une distance de %n cm",
+            "down",
+            20
+        ],
+        [
+            "w",
+            "volez vers la gauche sur une distance de %n cm",
+            "left",
+            20
+        ],
+        [
+            "w",
+            "volez vers le bas sur une distance de %n cm",
+            "right",
+            20
+        ],
+        [
+            "w",
+            "volez vers l'avant sur une distance de %n cm",
+            "forward",
+            20
+        ],
+        [
+            "w",
+            "volez vers l'arrière sur une distance de %n cm",
+            "back",
+            20
+        ],
+        [
+            "w",
+            "tournez (sens des aiguille d'une montre GAUCHE) de %n degrés",
+            "cw",
+            90
+        ],
+        [
+            "w",
+            "tournez (sens inverse des aiguille d'une montre DROITE) de %n degrés",
+            "ccw",
+            90
+        ],
+        [
+            "w",
+            "flip %m.flipDirection",
+            "flip",
+            "forward"
+        ],
+		["r", "batterie", "power"
+		],
+		["r", "vitesse", "speed"
+		],
+        [
+            "w",
+            "définir la vitesse a %n cm/s",
+            "setspeed",
+            80
+        ]
+    ],
+    "menus": {
+        "flipDirection": [
+            "forward",
+            "backward",
+            "left",
+            "right"
+        ]
+    }
+}
